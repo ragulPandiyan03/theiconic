@@ -1,0 +1,16 @@
+.imagenav4container{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imagenav4container .imagenav4content{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+.imagenav4container .imagenav4content .content{
+    background-color: black;
+    color: white;
+    padding: 0px 130px;
+}

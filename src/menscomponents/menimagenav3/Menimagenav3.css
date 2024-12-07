@@ -1,0 +1,31 @@
+.menimagenav3container{
+    margin-top: 30px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.menimagenav3content{
+    width: 95%;
+}
+.menimagenav3row{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.menimagenav3col{
+padding: 5px;
+}
+
+.menimagenav3col .menimagenav3image{
+    background-color: rgb(218, 71, 71);
+height: 200px;
+width: 200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menimagenav3image img{
+height: 190px;
+width: 190px;
+border-radius: 10px;
+}

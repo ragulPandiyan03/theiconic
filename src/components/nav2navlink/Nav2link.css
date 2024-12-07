@@ -1,0 +1,10 @@
+.nav2linkcontainer{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav2linkcontainer .nav2link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

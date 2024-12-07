@@ -1,0 +1,28 @@
+.cartpagenav2container{
+    height: auto;
+}
+.countsizecontainer{
+    display: flex;
+}
+select,.cartpagenav2size,.itemtotalprice{
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid lightblue;
+    margin-left: 5px;
+}
+.cartpagenav2image img{
+    height: 300px;
+    width: 200px;
+}
+.cartpagenav2col{
+    display: flex;
+    height: 300px;
+}
+.cartpagenav2itemdetails{
+    padding-left: 10px;
+}
+.cartpagenav2col{
+    margin-bottom: 10px;
+    padding: 10px 0px;
+    width: 95%;
+}

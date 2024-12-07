@@ -1,0 +1,73 @@
+.imagenav7container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenav7content {
+    width: 95%;
+}
+
+.imagenav7content .imagenav7title {
+    font-weight: bold;
+}
+
+.imagenav7container .imagenav7content .imagenav7row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures items wrap to the next line when space is constrained */
+    gap: 10px; /* Optional: Adds spacing between items */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagenav7col {
+    width: calc(100% / 6 - 10px); /* Each column takes 1/6 of the available space, minus gap */
+    max-width: calc(100% / 6); /* Prevents exceeding the 6 items in one row */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenav7image  img {
+    width: 100px;
+    height: 200px;
+    
+}
+.imagenav7col .imagenav7image{
+    position: relative;
+    width: 100px;
+    height: 200px;
+}
+.imagenav7col .imagenav7image2{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    visibility: hidden;
+}
+.imagenav7col .imagenav7image2 img{
+    height: 200px;
+    width: 100px;
+}
+.imagenav7col:hover  .imagenav7image{
+    visibility: hidden;
+}
+.imagenav7col:hover .imagenav7image2{
+visibility: visible;
+}
+.imagenav8shopall{
+    padding: 30px 70px;
+}
+.shopall{
+    padding: 15px 60px;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 30px;
+}
+.shopall:hover{
+    color: white;
+    background-color: black;
+}

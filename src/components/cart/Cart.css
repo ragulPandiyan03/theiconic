@@ -1,0 +1,22 @@
+
+.cart h1{
+    display: flex;
+padding: 0px 30px;
+
+}
+
+.cart h1 i{
+    color: white;
+    display: flex;
+    padding: 0px 70px;
+    justify-content: flex-end;
+}
+.cart h1{
+    position: relative;
+}
+.cart h1 span{
+    color:white;
+position: absolute;
+left: 55%;
+top: -30%;
+}

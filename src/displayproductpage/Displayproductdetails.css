@@ -1,0 +1,15 @@
+
+.displayproductdetailscontainer{
+    padding: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayproductdetailscontent{
+    width: 90%;
+    display: flex;
+}
+.displaycomponent1{
+    width: 70%;
+}

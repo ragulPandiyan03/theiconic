@@ -1,0 +1,25 @@
+.toysfoldercontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* background-color: lightblue; */
+    height: auto;
+    color: rgb(105, 99, 99);
+    
+}
+.hometoysnav a{
+    text-decoration: none;
+    font-size: 11px;
+    color: rgb(105, 99, 99);
+}
+.itemscount{
+    font-size: 12px;
+}
+.toysfoldercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%; 
+}

@@ -1,0 +1,17 @@
+.loginheadercontainer1{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginheadercontent1{
+   display: flex;
+   width: 90%;
+   justify-content: space-between;
+}
+.loginheadercontent1 .loginlink{
+    color: white;
+    text-decoration: none;
+}

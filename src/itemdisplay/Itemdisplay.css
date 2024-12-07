@@ -1,0 +1,64 @@
+.itemdisplaycontainer2{
+    height: 900px;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: -100%;
+    left: 50%;
+}
+.itemdisplaycard{
+    display: flex;
+    height:250px;
+    width: 300px;
+    
+}
+.itemdisplaycontent{
+    height: 200px;
+    width: 300px;
+   
+}
+.itemdisplaycard .image > img{
+   
+    height: 150px;
+    width: 130px;
+    object-fit: cover;
+}
+.successtitle{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+.titlemessage{
+    width: 90%;
+}
+.itemdisplaycarddetails{
+    height: auto;
+    padding: 0px 10px;
+}
+.buttons{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.buttons button{
+    padding: 7px 20px;
+    border: 1px solid rgb(75, 185, 221);
+    font-size: 11px;
+    font-weight: bold;
+}
+.continueshopping{
+    background-color: white;
+color: rgb(47, 133, 167);
+}
+.continueshopping:hover{
+    color: white;
+    background-color: rgb(83, 178, 216);
+}
+.viewbag{
+    background-color: rgb(75, 180, 221);
+    color: white;
+}

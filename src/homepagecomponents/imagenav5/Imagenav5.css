@@ -1,0 +1,21 @@
+.imagenav5container{
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imagenav5container .imagenav5content{
+    width: 95%;
+}
+.imagenav5container .imagenav5content .imagenav5row{
+    display: flex;
+    justify-content: space-between;
+}
+.imagenav5container .imagenav5content .imagenav5row .imagenav5col{
+    height: auto;
+}
+.imagenav5container .imagenav5content .imagenav5row .imagenav5col img{
+    height: 500px;
+    width: 620px;
+}

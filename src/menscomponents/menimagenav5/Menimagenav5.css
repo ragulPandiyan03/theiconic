@@ -1,0 +1,26 @@
+.menimagenav5container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    padding: 40px 0px;
+}
+.menimagenav5content{
+    width: 95%;
+}
+.menimagenav5row{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.menimagenav5col{
+    width: 50%;
+}
+.menimagenav5col img{
+    width: 100%;
+height: 500px;
+width: 630px;
+}
+.cardcontent{
+    width: 70%;
+    font-size: 17px;
+}

@@ -1,0 +1,10 @@
+.nav1container{
+    width: 100%;
+    display: flex;
+    justify-content:end;
+}
+.nav1container .nav1link{
+    padding: 0px 20px;
+    text-decoration: none;
+    color:rgb(114, 110, 110)
+}

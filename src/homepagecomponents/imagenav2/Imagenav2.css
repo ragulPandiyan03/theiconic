@@ -1,0 +1,22 @@
+.imagenav2container{
+    margin-top: 40px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenav2container .imagenav2row{
+    width: 95%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.imagenav2container .imagenav2row img{
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    object-position: center;
+}

@@ -1,0 +1,14 @@
+.cartpagenav1container{
+    width:100%;
+    height:auto;
+}
+.cartpagenav1content {
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+}
+.cartpagenav1content div{
+    font-size: 30px;
+    padding:10px 20px;
+}

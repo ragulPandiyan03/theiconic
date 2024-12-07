@@ -1,0 +1,12 @@
+.addtobagcontainer{
+    width: 100%;
+}
+.addtobagcontainer .addtobagcontent{
+    width: 100%;
+}
+.addtobagcontainer .addtobagcontent .addtobagbutton{
+    padding: 15px 100px;
+    color: white;
+    background-color: rgb(66, 181, 219);
+    border: none;
+}

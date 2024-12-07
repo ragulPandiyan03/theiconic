@@ -1,0 +1,13 @@
+.imagenav1container{
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.imagenav1container img{
+    height: 100px;
+    width: 95%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
